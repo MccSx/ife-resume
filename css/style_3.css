@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.left{
+  height: 80px;
+  background: #848484;
+  padding: 15px;
+}
+.left h1{
+  margin: 0;
+  color: white;
+  line-height: 50px;
+}
+.right{
+  border: 1px solid #D8D8D8;
+}
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.message>.subtitle,.message>p,.contact>.subtitle,.contact>p,
+.skill>.subtitle,.skill>div,.education>.subtitle,.education>div,
+.project>.subtitle,.project>div{
+  float: left;
+  height: 150px;
+}
+p,h4,h2{
+  margin: 0;
+}
+.subtitle{
+  background: #D6D6D6;
+  margin: 0;
+  height: 150px;
+}
+.message>.subtitle,.contact>.subtitle,
+.skill>.subtitle,.education>.subtitle,.project>.subtitle{
+  width: 10%;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.message>p,.contact>p,.skill>.describe,.education>.describe,.project>.describe{
+  width: 90%;
+  border-bottom: 1px solid #EAEAEA;
+  padding: 20px 0 0 20px;
+}
+p .name,p .sex,p .job,p .phone, p .email,p .homePage{
+  margin-right: 50px;
+}
+p .name-key,p .sex-key,p .job-key,p .phone-key, p .email-key,p .homePage-key{
+  margin-right: 10px;
+}
+a{
+  color: blue;
+}
+.describe h4,.describe p{
+  display: inline-block;
+}

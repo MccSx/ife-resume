@@ -1,0 +1,15 @@
+p .name,p .sex,p .job,p .phone, p .email,p .homePage{
+  margin-right: 50px;
+}
+p .name-key,p .sex-key,p .job-key,p .phone-key, p .email-key,p .homePage-key{
+  margin-right: 10px;
+}
+a{
+  color: blue;
+}
+h4,p{
+  margin: 0;
+}
+.colligate-skill,.education-s,.project-s{
+  margin-top: 10px;
+}

@@ -1,0 +1,38 @@
+*{box-sizing: border-box;}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.left,.right{
+  float: left;
+}
+.left{
+  width: 10%;
+  background: #65A4FA;
+  padding: 50px 30px;
+}
+.right{
+  width: 90%;
+  padding: 20px;
+}
+.title{
+  color: white;
+}
+p .name,p .sex,p .job,p .phone, p .email,p .homePage{
+  margin-right: 50px;
+}
+p .name-key,p .sex-key,p .job-key,p .phone-key, p .email-key,p .homePage-key{
+  margin-right: 10px;
+}
+a{
+  color: blue;
+}
+h4,p{
+  margin: 0;
+}
+.colligate-skill,.education-s,.project-s{
+  margin-top: 10px;
+}
